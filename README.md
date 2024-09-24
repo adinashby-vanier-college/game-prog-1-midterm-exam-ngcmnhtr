@@ -15,21 +15,21 @@ Create a game in Greenfoot based on the provided screenshot. The game will invol
 
 #### **Requirements:**
 
-1. **World Setup:**
+1. **World Setup:** (DONE)
    - Create a new scenario in Greenfoot and name it `PigWorld`.
    - Place multiple Burger objects randomly on the grid.
    - Place the Pig object in the center of the world.
    - Place the Snake object in a corner of the world.
    - Save the world.
 
-2. **Game Design:**
+2. **Game Design:** (DONE)
    - **Pig's Movement:** Allow the Pig to be controlled by the arrow keys (or "awsd").
    - **Eating Mechanism:** When the Pig overlaps with a Burger, the Burger should disappear, and the "eating.wav" sound should play.
    - **Snake's Behavior:** The Snake should move randomly around the world, aiming to catch the Pig.
    - **Winning Condition:** If the Pig eats all the Burgers, the game should transition to a "Winner" screen. Play the "win.wav" sound upon winning.
    - **Losing Condition:** If the Snake catches the Pig, the game should transition to a "Loser" screen. Play the "lost.wav" sound upon losing.
 
-3. **Screens and Sounds:**
+3. **Screens and Sounds:** (DONE)
    - **Winner Screen:** Design a simple screen that displays a message like "You Win!" when the Pig eats all the Burgers.
    - **Loser Screen:** Design a simple screen that displays a message like "Game Over!" when the Snake eats the Pig.
    - **Sound Effects:** Ensure that the following sound effects are played at the appropriate moments:
@@ -37,7 +37,7 @@ Create a game in Greenfoot based on the provided screenshot. The game will invol
      - "win.wav" when the Pig wins the game.
      - "lost.wav" when the Pig loses the game.
 
-4. **Coding Standards:**
+4. **Coding Standards:** (DONE)
    - Use clear and descriptive variable names.
    - Comment your code to explain the functionality of each part.
    - Follow proper indentation and code structure practices.
